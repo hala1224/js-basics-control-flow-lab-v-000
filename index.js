@@ -17,5 +17,15 @@ function scuberGreetingForFeet(ride) {
       return 'No go.';
     }
  }
-   
-   
+  function switchOnCharmFromTip(tip) {
+    if (tip === 'generous') {
+      return "Thank you so much.";
+    }
+    if (tip === 'not as generous') {
+       return "Thank you.";
+    }
+    if (tip !== 'generous' && tip !== 'not as generous') {
+      return "Bye";
+    }
+  }  
+    
